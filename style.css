@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css3?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    overflow: auto;
+    overflow-x: hidden;
+}
+body{
+    background: #8ba1bb;
+    font-family: Arial ;
+    font-size: 18px;
+    list-style: none;
+}
+p.title{
+    background-color: black;
+    color: whitesmoke;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+}
+.body{
+    background-color: white;
+    margin: 50px 10% 50px 10%;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+.deskp{
+    text-align: center;
+    display: inline-block;
+    max-width: 400px; 
+    font-size: 15px;
+    
+}
+.desk{
+text-align: center;
+}
+.title{
+    overflow-y: hidden;
+    text-align: center;
+    transform: translateY(80%);
+
+}
+.bar{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image{
+    width:100%;
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgrey;
+}
+.container{
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+
+}
+.table{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #6c829dc0;
+    height: 50px;
+    justify-content: space-between;
+    text-align: center;
+    min-width: 350px;
+    
+}
+.c{
+    width: 50%;
+    margin-top: 15px;
+}
+.c h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Poppins';
+
+}
+.c1{
+    display: inline-block;
+}
+.c2{
+    float: right;
+}
+.c .bar{
+    width: 200px;
+    border-radius: 15px;
+}
+.box1 p{
+    text-align: center;
+    border: 1px solid black ;
+    padding: 10px 0;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}/**/
+.tab .numero{
+    background-color: #6c829d;
+    color: black;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 3px;
+    font-weight:bold;
+    box-sizing: border-box; 
+    margin: 0px;
+}
+.tab td{
+    vertical-align: top;
+}
+.tab td .prep{
+    font-size:15px; 
+    padding-left:10px;
+    padding-bottom: 10px;
+}
+.tab tr{
+    height:50px ;
+}
+
